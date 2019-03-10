@@ -37,20 +37,20 @@
 	<div class="side_menu">
 		<div class="logo">
 			<a href="index.html">
-				<img src="img/logo.png" alt="">
+				<a href=""><h1>Greenhorn</h1></a>
 			</a>
 		</div>
 		<ul class="list menu-left">
 			<li>
-				<a href="index.html">Home</a>
+				<a href="#" class='toggle_icon'>Home</a>
 			</li>
 			<li>
-				<a href="about-us.html">About</a>
+				<a href="#serve-area-1" class='toggle_icon'>About</a>
 			</li>
 			<li>
-				<a href="service.html">Service</a>
+				<a href="#serve-area-2" class='toggle_icon'>Service</a>
 			</li>
-			<li>
+<!-- 			<li>
 				<div class="dropdown">
 					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
 						Projects
@@ -60,11 +60,11 @@
 						<a class="dropdown-item" href="project-details.html">Project Details</a>
 					</div>
 				</div>
-			</li>
-			<li>
+			</li> -->
+<!-- 			<li>
 				<a href="team.html">Team</a>
-			</li>
-			<li>
+			</li> -->
+<!-- 			<li>
 				<div class="dropdown">
 					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
 						Pages
@@ -73,8 +73,8 @@
 						<a class="dropdown-item" href="elements.html">Elements</a>
 					</div>
 				</div>
-			</li>
-			<li>
+			</li> -->
+<!-- 			<li>
 				<div class="dropdown">
 					<button type="button" class="dropdown-toggle" data-toggle="dropdown">
 						Blog
@@ -84,9 +84,9 @@
 						<a class="dropdown-item" href="single-blog.html">Blog Details</a>
 					</div>
 				</div>
-			</li>
+			</li> -->
 			<li>
-				<a href="contact.html">Contact</a>
+				<a href="#contact-area" class='toggle_icon'>Contact</a>
 			</li>
 		</ul>
 	</div> 
@@ -109,15 +109,18 @@
 				<div class="col-lg-6 col-md-12 home-banner-left d-flex fullscreen align-items-center">
 					<div>
 						<h1 class="">
-							We Are <span>SSB</span>. <br><br>
+							We Are <span>Greenhorn</span>. <br><br>
 							We Make <span>Student</span> and  <br>
 							<span>Small Business</span> Partnerships Happen.
 						</h1>
 						<p class="mx-auto mb-40">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua.
+							At Greenhorn we connect university
+							students with local entrepreneurs to target
+							their unique problems. We believe you should be able to focus
+							more on what you love and less on what you
+							don't: without breaking the bank.
 						</p>
-						<a href="#serve-area-1" class="primary-btn">More About Us</a>
+						<a class="typeform-share button" href="https://andrew859.typeform.com/to/E3fRPh" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#89DA59;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:11px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Student Sign Up </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 
 						<!-- <div class="d-flex align-items-center mt-60">
 							<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
@@ -150,7 +153,7 @@
 				<div class="col-lg-9 text-center">
 					<div class="section-title">
 						<p>What we do</p>
-						<h1>We Are <span>SSB.</span> <br>This is how we help</h1>
+						<h1>We Are <span>Greenhorn.</span> <br>This is how we help</h1>
 					</div>
 				</div>
 			</div>
@@ -165,8 +168,12 @@
 						</div>
 						<div class="service-content">
 							<h4>Businesses</h4>
-							<p>inappropriate behavior is often laughed off as boys will be boys,” women face higher conduct standards
-								especially in the workplace that’s why.</p>
+							<ul class="info-list">
+								<li>Bullet info type</li>
+								<li>Bullet info type</li>
+								<li>Bullet info type</li>
+								<li>Bullet info type</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -210,13 +217,13 @@
 				<div class="col-lg-9 text-center">
 					<div class="section-title">
 						<p>Services</p>
-						<h1>We Are <span>SSB.</span> <br>This is what we offer</h1>
+						<h1>We Are <span>Greenhorn.</span> <br>This is what we offer</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<!-- single-features -->
-				<div class="col-lg-3 col-sm-6 col-md-6">
+				<div class="col-lg-3 offset-lg-1 col-sm-6 col-md-6">
 					<div class="single-service">
 						<div class="service-icon">
 							<img src="img/service/shape1.png" alt="">
@@ -273,12 +280,12 @@
 						<span></span>
 					</a>
 				</div>
-				<div class="col-lg-5 offset-lg-1 video-right">
-					<h1>We Are Crafted. <br>
-						Some Info About Us</h1>
+				<div class="col-lg-5 offset-lg-1 video-right section-title">
+					<h1>We Are <span>Greenhorn.</span> <br>
+						Do More Of <br>What You Love</h1>
 					<p>
-						In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of
-						the space telescope known as the Hubble.
+						"I opened my pizzaria because I make the best
+						pizza, not to worry about the business!"
 					</p>
 
 					<div class="counter_area" id="project_counter">
@@ -511,11 +518,11 @@
 	<!--================ End Testimonial Area =================-->
 
 	<!--================ Start CTA Area =================-->
-	<section class="cta-area">
+	<section class="cta-area" id='contact-area'>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 col-md-12">
-					<h2>Get to Know Project Estimate?</h2>
+					<h2>Want to get started?</h2>
 					<p>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s
 						exciting to think about setting up your own viewing station whether that is on the deck</p>
 					<a href="#" class="primary-btn">Get Estimate for Free</a>
@@ -603,10 +610,10 @@
 	<!--================ start footer Area  =================-->
 	<footer class="footer-area section_gap">
 		<div class="container">
-			<div class="row footer-top">
+<!-- 			<div class="row footer-top">
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
-						<h6>About Crafted</h6>
+						<h6>About Greenhorn</h6>
 						<p>
 							The world has become so fast paced that people don’t want to stand by reading a page of information, they would
 							much rather look.
@@ -674,7 +681,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
 			<div class="container">
 				<div class="row justify-content-between">
